@@ -341,7 +341,7 @@ os.chdir(s2gamecsgo+"/import_scripts")
 s2gameaddondir = "game\\csgo_addons\\" + s2addon
 s2gameaddon = s2gamecsgo.replace( "game\\csgo", s2gameaddondir )
 
-s2contentcsgo = s2gameaddon.replace( "game\csgo_addons", "content\csgo_addons" )
+s2contentcsgo = s2gameaddon.replace( "game\\csgo_addons", "content\\csgo_addons" )
 s2contentcsgoimported = s2contentcsgo
 
 # save VALVE_NO_AUTO_P4 environment var, set to 1 to ensure p4 lib works in a mode that is disconnected from p4
